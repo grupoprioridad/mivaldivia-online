@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Widget Demo - Mi Valdivia Online</title>
+    <style>
+        body {
+            font-family: system-ui, sans-serif;
+            background: #f5f5f5;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 { color: #0c2d4a; }
+        .demo-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .preview {
+            flex: 1;
+            min-width: 350px;
+        }
+        .code {
+            flex: 1;
+            min-width: 300px;
+        }
+        pre {
+            background: #1a252f;
+            color: #f0f7fc;
+            padding: 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 0.85rem;
+        }
+        code { color: #4fc3f7; }
+    </style>
+</head>
+<body>
+    <h1>🌊 Widget Mi Valdivia Online</h1>
+    <p>Widget de emprendimientos destacados para sitios asociados.</p>
+    
+    <div class="demo-container">
+        <div class="preview">
+            <h3>Vista previa:</h3>
+            <div id="valdivia-widget"></div>
+        </div>
+        
+        <div class="code">
+            <h3>Código para insertar:</h3>
+            <pre>&lt;!-- Widget Mi Valdivia Online --&gt;
+&lt;div id="valdivia-widget"&gt;&lt;/div&gt;
+&lt;script src="<code>https://mivaldivia.online/api/widget.js</code>"&gt;&lt;/script&gt;</pre>
+            
+            <h3>Características:</h3>
+            <ul>
+                <li>✅ Carousel automático (cada 10 segundos)</li>
+                <li>✅ Solo emprendimientos destacados</li>
+                <li>✅ Diseño responsive</li>
+                <li>✅ Botón "Agregar el mío"</li>
+                <li>✅ API protegida por CORS</li>
+            </ul>
+            
+            <h3>Dominios autorizados:</h3>
+            <ul>
+                <li>mivaldivia.online</li>
+                <li>mivaldivia.online</li>
+                <li>j.prioridad.cl (dev)</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="/valdivia/api/widget.js"></script>
+</body>
+</html>

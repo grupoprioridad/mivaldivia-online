@@ -1,0 +1,3 @@
+includes/config.php
+uploads/emprendimientos/*
+!uploads/emprendimientos/.gitkeep
