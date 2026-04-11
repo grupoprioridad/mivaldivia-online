@@ -505,7 +505,7 @@ $relacionados = $stmt->fetchAll();
     </div>
     
     <footer class="footer">
-        <p>🌊 Mi Valdivia Online — Una iniciativa de <a href="https://mivaldivia.online">Mi Valdivia</a></p>
+        <p>🌊 Mi Valdivia Online — Una iniciativa de <a href="https://www.elcorreodevaldivia.cl" target="_blank">El Correo de Valdivia</a></p>
     </footer>
 </body>
 </html>

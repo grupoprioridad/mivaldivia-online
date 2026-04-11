@@ -286,7 +286,7 @@
         container.innerHTML = `
             <div class="valdivia-widget">
                 <div class="valdivia-widget-header">
-                    <a href="https://mivaldivia.online" target="_blank" class="valdivia-widget-logo">
+                    <a href="https://www.elcorreodevaldivia.cl" target="_blank" class="valdivia-widget-logo">
                         🌊 Mi Valdivia Online
                     </a>
                 </div>
@@ -344,7 +344,7 @@
         container.innerHTML = `
             <div class="valdivia-widget">
                 <div class="valdivia-widget-header">
-                    <a href="https://mivaldivia.online" target="_blank" class="valdivia-widget-logo">
+                    <a href="https://www.elcorreodevaldivia.cl" target="_blank" class="valdivia-widget-logo">
                         🌊 Mi Valdivia Online
                     </a>
                 </div>

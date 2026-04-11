@@ -394,7 +394,7 @@ require_once __DIR__ . '/../includes/config.php';
                     <ul>
                         <li class="highlight">Etiqueta ⭐ Destacado en tu perfil</li>
                         <li>Apareces primero en las búsquedas</li>
-                        <li>Rotación en widget de Mi Valdivia</li>
+                        <li>Rotación en widget de El Correo de Valdivia</li>
                     </ul>
                 </div>
                 <div class="plan-footer">
@@ -412,8 +412,8 @@ require_once __DIR__ . '/../includes/config.php';
                     <ul>
                         <li>Etiqueta ⭐ Destacado en tu perfil</li>
                         <li>Apareces primero en las búsquedas</li>
-                        <li>Rotación en widget de Mi Valdivia</li>
-                        <li class="highlight">📰 Publirreportaje en Mi Valdivia</li>
+                        <li>Rotación en widget de El Correo de Valdivia</li>
+                        <li class="highlight">📰 Publirreportaje en El Correo de Valdivia</li>
                     </ul>
                 </div>
                 <div class="plan-footer">
@@ -431,9 +431,9 @@ require_once __DIR__ . '/../includes/config.php';
                     <ul>
                         <li>Etiqueta ⭐ Destacado en tu perfil</li>
                         <li>Apareces primero en las búsquedas</li>
-                        <li>Rotación en widget de Mi Valdivia</li>
-                        <li>📰 Publirreportaje en Mi Valdivia</li>
-                        <li class="highlight">📱 Publicación en redes sociales de Mi Valdivia</li>
+                        <li>Rotación en widget de El Correo de Valdivia</li>
+                        <li>📰 Publirreportaje en El Correo de Valdivia</li>
+                        <li class="highlight">📱 Publicación en redes sociales de El Correo de Valdivia</li>
                     </ul>
                 </div>
                 <div class="plan-footer">
@@ -457,8 +457,8 @@ require_once __DIR__ . '/../includes/config.php';
             </div>
             <div class="benefit-item">
                 <div class="benefit-icon">📰</div>
-                <h3>Presencia en Mi Valdivia</h3>
-                <p>Miles de personas ven Mi Valdivia cada día. Tu negocio estará ahí</p>
+                <h3>Presencia en El Correo de Valdivia</h3>
+                <p>Miles de personas visitan El Correo de Valdivia cada día. Tu negocio estará ahí</p>
             </div>
             <div class="benefit-item">
                 <div class="benefit-icon">⭐</div>
@@ -483,7 +483,7 @@ require_once __DIR__ . '/../includes/config.php';
         
         <div class="faq-item">
             <h3>¿Qué es el publirreportaje?</h3>
-            <p>Es un artículo dedicado exclusivamente a tu emprendimiento, publicado en Mi Valdivia. Incluye descripción, fotos y todo lo que quieras contar sobre tu negocio.</p>
+            <p>Es un artículo dedicado exclusivamente a tu emprendimiento, publicado en El Correo de Valdivia. Incluye descripción, fotos y todo lo que quieras contar sobre tu negocio.</p>
         </div>
         
         <div class="faq-item">
@@ -498,7 +498,7 @@ require_once __DIR__ . '/../includes/config.php';
     </section>
     
     <footer class="footer">
-        <p>🌊 Mi Valdivia Online — Una iniciativa de <a href="https://mivaldivia.online">Mi Valdivia</a></p>
+        <p>🌊 Mi Valdivia Online — Una iniciativa de <a href="https://www.elcorreodevaldivia.cl" target="_blank">El Correo de Valdivia</a></p>
         <p style="margin-top: 0.5rem; opacity: 0.7;">© <?= date('Y') ?> — Todos los derechos reservados</p>
     </footer>
 </body>

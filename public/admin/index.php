@@ -179,7 +179,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['accion'])) {
                     </p>
                 </div>
                 <p style="text-align: center; color: #9ca3af; font-size: 0.8rem; margin-top: 30px;">
-                    🌊 Mi Valdivia Online — Una iniciativa de Mi Valdivia
+                    🌊 Mi Valdivia Online — Una iniciativa de El Correo de Valdivia
                 </p>
             </body>
             </html>';

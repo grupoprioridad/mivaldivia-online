@@ -690,7 +690,7 @@ $conteos = $db->query("SELECT c.slug, COUNT(e.id) as total
     
     <footer class="footer">
         <div class="footer-logo">🌊 Mi Valdivia Online</div>
-        <p>Una iniciativa de <a href="https://mivaldivia.online" target="_blank">Mi Valdivia</a></p>
+        <p>Una iniciativa de <a href="https://www.elcorreodevaldivia.cl" target="_blank">El Correo de Valdivia</a></p>
         <p style="margin-top: 0.5rem;">© <?= date('Y') ?> — Todos los derechos reservados</p>
     </footer>
     

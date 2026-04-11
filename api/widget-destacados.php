@@ -7,8 +7,12 @@
 // Dominios autorizados
 $allowedOrigins = [
     'https://mivaldivia.online',
+    'https://elcorreodevaldivia.cl',
+    'https://www.elcorreodevaldivia.cl',
     'https://www.mivaldivia.online',
     'https://mivaldivia.online',
+    'https://elcorreodevaldivia.cl',
+    'https://www.elcorreodevaldivia.cl',
     'https://www.mivaldivia.online',
     'https://j.prioridad.cl' // dev
 ];
