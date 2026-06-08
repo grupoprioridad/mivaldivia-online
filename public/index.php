@@ -514,6 +514,42 @@ $conteos = $db->query("SELECT c.slug, COUNT(e.id) as total
             color: var(--accent-400);
             text-decoration: none;
         }
+
+        .footer-media-partner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .footer-media-label {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--deep-400);
+            opacity: 0.7;
+        }
+
+        .footer-media-logo {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            padding: 0.4rem 0.75rem;
+            transition: background 0.2s;
+        }
+
+        .footer-media-logo:hover {
+            background: rgba(255,255,255,0.18);
+        }
+
+        .footer-media-logo img {
+            display: block;
+        }
         
         /* ═══════════════════════════════════════
            RESPONSIVE
@@ -691,7 +727,15 @@ $conteos = $db->query("SELECT c.slug, COUNT(e.id) as total
     <footer class="footer">
         <div class="footer-logo">🌊 Mi Valdivia Online</div>
         <p>Una iniciativa de <a href="https://www.elcorreodevaldivia.cl" target="_blank">El Correo de Valdivia</a></p>
-        <p style="margin-top: 0.5rem;">© <?= date('Y') ?> — Todos los derechos reservados</p>
+
+        <div class="footer-media-partner">
+            <span class="footer-media-label">Media Partner</span>
+            <a href="https://www.atvvaldivia.cl" target="_blank" rel="noopener" class="footer-media-logo" title="ATV Valdivia">
+                <img src="<?= BASE_URL ?>/img/atv-valdivia-logo.svg" alt="ATV Valdivia" height="40">
+            </a>
+        </div>
+
+        <p style="margin-top: 1rem;">© <?= date('Y') ?> — Todos los derechos reservados</p>
     </footer>
     
     <!-- Popup Inscribir Emprendimiento -->

@@ -334,10 +334,63 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             color: var(--green-600); 
         }
         
+        .media-partner-banner {
+            background: linear-gradient(135deg, #0c2d4a 0%, #0a1628 100%);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 0;
+            margin-top: 2rem;
+        }
+
+        .media-partner-inner {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .media-partner-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #5dade2;
+            white-space: nowrap;
+        }
+
+        .media-partner-logo {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            padding: 0.35rem 0.65rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+
+        .media-partner-logo:hover {
+            background: rgba(255,255,255,0.18);
+        }
+
+        .media-partner-logo img {
+            display: block;
+        }
+
+        .media-partner-text {
+            font-size: 0.85rem;
+            color: #b8d4e8;
+        }
+
+        .media-partner-text strong {
+            color: #ffffff;
+        }
+
         @media (max-width: 640px) {
             .container { padding: 1.5rem 1rem 3rem; }
             .card { padding: 1.5rem; }
             .form-row { grid-template-columns: 1fr; }
+            .media-partner-inner { gap: 0.75rem; }
+            .media-partner-text { font-size: 0.8rem; }
         }
     </style>
 </head>
@@ -488,6 +541,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             </div>
             
+            <div class="media-partner-banner">
+                <div class="media-partner-inner">
+                    <span class="media-partner-label">Media Partner</span>
+                    <a href="https://www.atvvaldivia.cl" target="_blank" rel="noopener" class="media-partner-logo" title="ATV Valdivia">
+                        <img src="<?= BASE_URL ?>/img/atv-valdivia-logo.svg" alt="ATV Valdivia" height="36">
+                    </a>
+                    <span class="media-partner-text">Tu emprendimiento puede aparecer en <strong>ATV Valdivia</strong></span>
+                </div>
+            </div>
+
             <div class="actions">
                 <button type="submit" class="btn">🚀 Enviar para revisión</button>
             </div>

@@ -479,6 +479,44 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $paso === 'codigo') {
             color: var(--river-600);
             text-decoration: none;
         }
+
+        .media-partner-block {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin-top: 1.5rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(255,255,255,0.12);
+        }
+        @media (max-width: 768px) {
+            .media-partner-block {
+                justify-content: center;
+            }
+        }
+        .media-partner-label {
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--deep-400);
+            opacity: 0.7;
+            white-space: nowrap;
+        }
+        .media-partner-logo {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            padding: 0.35rem 0.65rem;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .media-partner-logo:hover {
+            background: rgba(255,255,255,0.18);
+        }
+        .media-partner-logo img {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -516,6 +554,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $paso === 'codigo') {
             </div>
             
             <p class="time-info">Sin costo · <strong>Toma 2 minutos</strong></p>
+
+            <div class="media-partner-block">
+                <span class="media-partner-label">Media Partner</span>
+                <a href="https://www.atvvaldivia.cl" target="_blank" rel="noopener" class="media-partner-logo" title="ATV Valdivia">
+                    <img src="<?= BASE_URL ?>/img/atv-valdivia-logo.svg" alt="ATV Valdivia" height="34">
+                </a>
+            </div>
         </div>
         
         <!-- Form column -->
